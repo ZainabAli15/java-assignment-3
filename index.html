@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Numbers from 1 to 10</title>
+    <style>
+        body {
+             font-family: 'Arial', sans-serif;
+             line-height: 1.6;
+             background: linear-gradient( to right, #e0522e, #feb47b 40%, #6a11cb 90%);
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 24px;
+            color: rgb(26, 168, 62);
+        }
+    </style>
+</head>
+<body>
+    <U><h1>FOR LOOP ASSIGNMENTS</h1></U>
+
+    <fieldset>
+    <h1>1.Numbers from 1 to 10</h1>
+    <div id="output1"></div>
+    </fieldset><BR>
+    <fieldset>
+    <h1> 2.Even Numbers from 1 to 20</h1>
+    <div id="output2"></div>
+    </fieldset><BR>
+        <fieldset>
+        <div class="container">
+            <h1>3.Sum of First 10 Natural Numbers</h1>
+            <button onclick="calculateSum()">Calculate Sum</button>
+            <p class="result" id="sumResult1"></p>
+        </div>
+        </fieldset><br>
+        <fieldset>
+            <div class="container">
+                <h1>4.Reverse a String</h1>
+                <button onclick="reverseString()">Reverse "JavaScript"</button>
+                <p class="result" id="reversedString"></p>
+            </div>
+        </fieldset><br>
+        <fieldset>
+            <div class="container">
+                <h1>5.Multiplication Table of 5</h1>
+                <button onclick="generateTable()">Generate Table</button>
+                <div id="tableOutput" class="multiplication-table"></div>
+            </div>
+        </fieldset><br>
+        <U><H1>WHILE LOOP ASSIGNMETS</H1></U>
+        <fieldset>
+            <div class="container">
+                <h1>6.Print Numbers from 1 to 5</h1>
+                <button onclick="printNumbers()">Print Numbers</button>
+                <p class="result" id="output"></p>
+            </div>
+        </fieldset><br>
+        <fieldset>
+            <div class="container">
+                <h1>7.Sum of Digits</h1>
+                <button onclick="sumOfDigits()">Calculate Sum of Digits of 1234</button>
+                <p class="result" id="sumResult"></p>
+            </div>
+        </fieldset><br>
+        <fieldset>
+            <div class="container">
+                <h1>8.Countdown from 10 to 1</h1>
+                <button onclick="startCountdown()">Start Countdown</button>
+                <p class="countdown" id="countdownResult"></p>
+            </div>
+        </fieldset><br>
+        <fieldset>
+            <div class="container">
+                <h1>9.Prime Number Checker</h1>
+                <input type="number" id="numberInput" placeholder="Enter a number" />
+                <button onclick="checkPrime()">Check Prime</button>
+                <div class="result" id="result3"></div>
+            </div>
+        </fieldset><br>
+        <fieldset>
+            <h1>10.Odd Numbers Between 1 and 15</h1>
+            <div id="oddNumbers"></div>
+        </fieldset><br>
+        <U><H1>DO-WHILE LOOP ASSIGNMENTS</H1></U>
+        <fieldset>
+            <h1>11.Output of "Hello" 5 Times</h1>
+            <div id="helloOutput" class="output"></div>
+        </fieldset><br>
+        <fieldset>
+            <h1>12.Generate Numbers from 1 to 10</h1>
+    <div id="numberOutput" class="output2"></div>
+        </fieldset><br>
+        <fieldset>
+            <div class="container">
+                <h1>13.Password Prompt</h1>
+        
+                <input type="password" id="password" placeholder="Enter password" />
+                <button onclick="checkPassword()">Submit</button>
+        
+                <p id="message"></p>
+            </div>
+        </fieldset><BR>
+   <fieldset>
+    <h1>14.Sum of Numbers from 1 to 100</h1>
+
+    <button onclick="calculateSum()">Calculate Sum</button>
+
+    <p id="result4"></p>
+   </fieldset><br>
+   <fieldset>
+    <h1>15.Countdown from 5</h1>
+    <button onclick="startCountdown()">Start Countdown</button>
+    <p id="countdownResult1"></p>
+    </fieldset><br>
+    <U><H1>IF-ELSE ASSIGNMENTS</H1></U>
+   <fieldset>
+    <div class="container">
+        <h1>16.Check if a Number is Even or Odd</h1>
+        
+        <input type="number" id="numberInput2" placeholder="Enter a number" />
+        <button onclick="checkEvenOdd()">Check</button>
+
+        <p id="result5"></p>
+    </div>
+   </fieldset><br>
+   <fieldset>
+    <div class="container">
+        <h1>17.Find the Largest of Two Numbers</h1>
+        
+        <input type="number" id="num1" placeholder="Enter first number" />
+        <input type="number" id="num2" placeholder="Enter second number" />
+        <button onclick="findLargest()">Find Largest</button>
+
+        <p id="result6"></p>
+    </div>
+   </fieldset><br>
+   <fieldset>
+    <body>
+        <div class="container">
+            <h1>18.Check Voting Eligibility</h1>
+    
+            <input type="number" id="age" placeholder="Enter your age" />
+            <button onclick="checkEligibility()">Check Eligibility</button>
+    
+            <p id="result7"></p>
+        </div>
+   </fieldset><br>
+   <fieldset>
+    <div class="container">
+        <h1>19.Grade Evaluation</h1>
+
+        <input type="number" id="score" placeholder="Enter your score" />
+        <button onclick="evaluateGrade()">Evaluate Grade</button>
+
+        <p id="result8"></p>
+    </div>
+   </fieldset><br>
+   <U><H1>SWITCH ASSIGNMENTS</H1></U>
+   <fieldset>
+    <div class="container">
+        <h1>20.Find the Day of the Week</h1>
+
+        <input type="number" id="dayNumber" placeholder="Enter a number (1-7)" />
+        <button onclick="findDay()">Get Day</button>
+
+        <p id="result9"></p>
+    </div>
+   </fieldset><br>
+   <h3>Submitted by :<b> ZAINAB ALI D/O MUHAAMAD ALI</b></h3>
+    <script>
+        let outputDiv = document.getElementById('output1');
+        let numbers = '';
+        for (let i = 1; i <= 10; i++) {
+            numbers += i + ' ';
+        }
+        outputDiv.textContent = numbers;
+                let output = document.getElementById('output2');
+                let evenNumbers = '';
+                for (let i = 2; i <= 20; i += 2) {
+                    evenNumbers += i + ' ';
+                }
+        output.textContent = evenNumbers;
+                function calculateSum() {
+            let sum = 0;
+            for (let i = 1; i <= 10; i++) {
+                sum += i;
+            }
+            document.getElementById('sumResult1').innerText = `The sum of the first 10 natural numbers is: ${sum}`;
+        }
+        function reverseString() {
+            let str = "JavaScript";
+            let reversedStr = "";
+            
+            for (let i = str.length - 1; i >= 0; i--) {
+                reversedStr += str[i];
+            }
+            
+            document.getElementById('reversedString').innerText = `Reversed String: ${reversedStr}`;
+        }
+        function generateTable() {
+            let table = "";
+            let number = 5; 
+
+            for (let i = 1; i <= 10; i++) {
+                table += `${number} x ${i} = ${number * i}<br>`;
+            }
+            document.getElementById('tableOutput').innerHTML = table;
+        }
+        function printNumbers() {
+            let output = "";
+            let i = 1;
+
+            while (i <= 5) {
+                output += i + "<br>"; 
+                i++; 
+            }
+            document.getElementById('output').innerHTML = output;
+        }
+        function sumOfDigits() {
+            let number = 1234; 
+            let sum = 0;
+
+            while (number > 0) {
+                let digit = number % 10;  
+                sum += digit;             
+                number = Math.floor(number / 10); 
+            }
+
+            document.getElementById('sumResult').innerText = `Sum of the digits of 1234 is: ${sum}`;
+        }
+
+        function startCountdown() {
+            let countdown = 10;
+            let output = '';
+
+            while (countdown > 0) {
+                output += countdown + "<br>"; 
+                countdown--; 
+            }
+
+            document.getElementById('countdownResult').innerHTML = output;
+        }
+        function checkPrime() {
+            const num = parseInt(document.getElementById('numberInput').value);
+            let result = document.getElementById('result3');
+
+            if (isNaN(num) || num <= 1) {
+                result.textContent = 'Please enter a number greater than 1.';
+                return;
+            }
+
+            let i = 2;
+            let isPrime = true;
+
+            while (i <= Math.sqrt(num)) {
+                if (num % i === 0) {
+                    isPrime = false;
+                    break;
+                }
+                i++;
+            }
+
+            if (isPrime) {
+                result.textContent = `${num} is a prime number.`;
+            } else {
+                result.textContent = `${num} is not a prime number.`;
+            }
+        }
+         function printOddNumbers() {
+            let i = 1;
+            let outputDiv = document.getElementById("oddNumbers");
+
+            while (i <= 15) {
+                if (i % 2 !== 0) {
+                    let p = document.createElement("p");
+                    p.className = "number";
+                    p.textContent = i;
+                    outputDiv.appendChild(p);
+                }
+                i++;
+            }
+        }
+        printOddNumbers();
+        function printHello() {
+            let count = 1;
+            let outputDiv = document.getElementById("helloOutput");
+
+            do {
+                let p = document.createElement("p");
+                p.className = "message";
+                p.textContent = "Hello";
+                outputDiv.appendChild(p);
+                count++;
+            } while (count <= 5);
+        }
+        printHello();
+          function generateNumbers() {
+            let i = 1; 
+            let outputDiv = document.getElementById("numberOutput");
+
+            do {
+                let p = document.createElement("p");
+                p.className = "number";
+                p.textContent = i;
+                outputDiv.appendChild(p);
+                i++; 
+            } while (i <= 10);
+        }
+        function generateNumbers() {
+            let i = 1;  
+            let outputDiv = document.getElementById("numberOutput");
+
+            do {
+                let p = document.createElement("p");
+                p.className = "number";
+                p.textContent = i;
+                outputDiv.appendChild(p);
+                i++; 
+            } while (i <= 10);
+        }
+
+        generateNumbers();
+        let total = 0;  
+        let resultDiv = document.getElementById("result");
+
+        let sum = 0;  
+        function checkPassword() {
+    let passwordEntered;
+    const correctPassword = "1234";
+    
+    do {
+        passwordEntered = document.getElementById("password").value;
+
+        if (passwordEntered === correctPassword) {
+            document.getElementById("message").textContent = "Password is correct! Access granted.";
+            document.getElementById("message").style.color = "green";
+            break; // Exit the loop if the password is correct
+        } else {
+            document.getElementById("message").textContent = "Incorrect password, please try again.";
+            document.getElementById("message").style.color = "red";
+        }
+    } while (passwordEntered !== correctPassword);
+}
+
+
+        function calculateSum() {
+            
+            let totalSum = 0;
+            let number = 1;
+            do {
+                totalSum += number; 
+                number++;            
+            } while (number <= 100);  
+
+            document.getElementById("result4").innerHTML = "The sum of numbers from 1 to 100 is: " + totalSum;
+        }
+        function startCountdown() {
+            let countdown = 5;
+
+            let result = "";
+
+            do {
+                result += countdown + "<br>"; 
+                countdown--; 
+            } while (countdown > 0); 
+
+            document.getElementById("countdownResult1").innerHTML = result;
+        }
+        function checkEvenOdd() {
+    const number = document.getElementById("numberInput2").value;
+
+    if (number === "") {
+        document.getElementById("result5").textContent = "Please enter a number!";
+        return;
+    }
+    if (number % 2 === 0) {
+        document.getElementById("result5").textContent = `${number} is Even`;
+        document.getElementById("result5").style.color = "green";
+    } else {
+        document.getElementById("result5").textContent = `${number} is Odd`;
+        document.getElementById("result5").style.color = "red";
+    }
+        }
+        function findLargest() {
+    const num1 = parseFloat(document.getElementById("num1").value);
+    const num2 = parseFloat(document.getElementById("num2").value);
+
+    if (isNaN(num1) || isNaN(num2)) {
+        document.getElementById("result6").textContent = "Please enter valid numbers!";
+        return;
+    }
+
+    if (num1 > num2) {
+        document.getElementById("result6").textContent = `The larger number is: ${num1}`;
+        document.getElementById("result6").style.color = "green";
+    } else if (num2 > num1) {
+        document.getElementById("result6").textContent = `The larger number is: ${num2}`;
+        document.getElementById("result6").style.color = "green";
+    } else {
+        document.getElementById("result6").textContent = "Both numbers are equal!";
+        document.getElementById("result6").style.color = "blue";
+    }
+        }
+        function checkEligibility() {
+    const age = parseInt(document.getElementById("age").value);
+
+    if (isNaN(age) || age <= 0) {
+        document.getElementById("result7").textContent = "Please enter a valid age.";
+        return;
+    }
+
+    if (age >= 18) {
+        document.getElementById("result7").textContent = "You are eligible to vote!";
+        document.getElementById("result7").style.color = "green";
+    } else {
+        document.getElementById("result7").textContent = "You are not eligible to vote.";
+        document.getElementById("result7").style.color = "red";
+    }
+        }
+    function evaluateGrade() {
+    const score = parseInt(document.getElementById("score").value);
+
+    if (isNaN(score) || score < 0 || score > 100) {
+        document.getElementById("result8").textContent = "Please enter a valid score between 0 and 100.";
+        return;
+    }
+
+    let grade = '';
+    if (score >= 90) {
+        grade = 'A';
+    } else if (score >= 80) {
+        grade = 'B';
+    } else if (score >= 70) {
+        grade = 'C';
+    } else {
+        grade = 'F';
+    }
+
+    document.getElementById("result8").textContent = `Your grade is: ${grade}`;
+        }
+        function findDay() {
+    const dayNumber = parseInt(document.getElementById("dayNumber").value);
+
+    if (isNaN(dayNumber) || dayNumber < 1 || dayNumber > 7) {
+        document.getElementById("result").textContent = "Please enter a valid number between 1 and 7.";
+        return;
+    }
+
+    let day;
+    switch (dayNumber) {
+        case 1:
+            day = "Monday";
+            break;
+        case 2:
+            day = "Tuesday";
+            break;
+        case 3:
+            day = "Wednesday";
+            break;
+        case 4:
+            day = "Thursday";
+            break;
+        case 5:
+            day = "Friday";
+            break;
+        case 6:
+            day = "Saturday";
+            break;
+        case 7:
+            day = "Sunday";
+            break;
+        default:
+            day = "Invalid input";
+    }
+    document.getElementById("result9").textContent = `The day is: ${day}`;
+}
+
+
+    </script>
+</body>
+</html>
